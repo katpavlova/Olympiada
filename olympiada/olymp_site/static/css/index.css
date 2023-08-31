@@ -288,6 +288,12 @@ header h1{
         transform: translate(-15%, -15%);
     }
 }
+@media (min-width: 768px) {
+    .carousel{
+        display:none;
+    }
+}
+
 @media (min-width: 320px) and (max-width: 767px)
 {
     .navbar-menu{
@@ -295,6 +301,13 @@ header h1{
     }
     .navbar-item{
         text-align: center;
+    }
+    .carousel{
+        display: flex;
+        margin-top: 30px;
+    }
+    .photogallery .container-fluid{
+        display:none;
     }
 }
 
